@@ -1,0 +1,45 @@
+body {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.item {
+  min-height: 100%;
+  min-width: 30%;
+  padding: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.item:hover img {
+  transform: scale(1.03);
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  background: rgb(230, 230, 230);
+  border-radius: 10px;
+}
+
+.download .bi {
+  position: absolute;
+  bottom: 25px;
+  font-size: 2rem;
+  color: white;
+  margin-left: -50px;
+}
